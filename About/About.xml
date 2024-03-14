@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Ash's Chainsaw Hand</name> <!-- The name of your mod in the mod list -->
+    <author>Flammable</author>
+    <packageId>Flammable.ChainsawHand</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <description>Adds the infamous chainsaw hand, of Evil Dead II and Army of Darkness fame. Good for tearing up demons, on medieval planets and Urbworlds alike. 
+    - Research prosthetics.
+    - Craft the chainsaw hand at a machining table.
+    - Perform surgery and replace a hand with the chainsaw prosthetic.
+    - Use as needed.
+
+    The chainsaw hand will also speed up plant work.
+    For Rimworld Version 1.4.</description>
+</ModMetaData>
+    

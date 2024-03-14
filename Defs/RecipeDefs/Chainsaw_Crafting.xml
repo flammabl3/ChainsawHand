@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallChainsawHand</defName>
+    <label>install chainsaw hand</label>
+    <description>Install a chainsaw hand.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ChainsawHand</ThingDef>
+      <HediffDef>ChainsawHand</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing chainsaw hand.</jobString>
+    <skillRequirements Inherit="False">
+    </skillRequirements>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChainsawHand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories><li>Medicine</li></categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChainsawHand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ChainsawHand</addsHediff>
+  </RecipeDef>
+</Defs>

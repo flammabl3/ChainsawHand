@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Chainsaw_Swing_1</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Chainsaw/chainsaw1</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Chainsaw/chainsaw2</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Chainsaw/chainsaw3</clipPath>
+          </li>
+        </grains>
+        <volumeRange>22</volumeRange>
+        <pitchRange>0.9~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

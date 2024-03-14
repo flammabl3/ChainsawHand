@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>ChainsawHand</defName>
+    <label>chainsaw hand</label>
+    <description>A chainsaw made to replace a hand. Used for carving up the living and the dead. Groovy.</description>
+    <descriptionHyperlinks><RecipeDef>InstallChainsawHand</RecipeDef></descriptionHyperlinks>
+    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake Inherit="False">1800</WorkToMake>
+      <Mass Inherit="False">5</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>Prosthetics</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef Inherit="False">UnfinishedChainsaw</unfinishedThingDef>
+    </recipeMaker>
+    <techHediffsTags>
+      <li>ChainsawHand</li>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <graphicData>
+      <texPath>chainsaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+      <color>(255,255,255)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <label>An unfinished chainsaw.</label>
+    <defName>UnfinishedChainsaw</defName>
+    <graphicData Inherit="False">
+      <texPath>chainsawUnfinished</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+</Defs>
