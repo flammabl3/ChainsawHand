@@ -22,7 +22,6 @@
       <unfinishedThingDef Inherit="False">UnfinishedChainsaw</unfinishedThingDef>
     </recipeMaker>
     <techHediffsTags>
-      <li>ChainsawHand</li>
       <li>Advanced</li>
       <li>AdvancedWeapon</li>
     </techHediffsTags>
